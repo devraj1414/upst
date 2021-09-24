@@ -3,7 +3,7 @@ const app = express()
 const port = 3008
 app.use(express.json())
 app.get('/', (req, res) => {
-	res.json({message: 'Hello World'})
+	res.json({message: 'Hello World, I have addded a new Feature'})
 })
 let server = app.listen(port, () => {
 	console.log(`Example app listing at port ${port}`)
